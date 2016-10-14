@@ -3,4 +3,4 @@ captain-example:
   image: spiddy/captain-example
   test:
     - docker run spiddy/captain-example|grep "hello there"
-    - docker run spiddy/captain-example|grep "another feature"
+    - docker run spiddy/captain-example|grep "great new feature"
