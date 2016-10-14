@@ -1,2 +1,2 @@
 FROM busybox
-CMD echo hello there, another feature added!!
+CMD echo hello there, another feature added new release!!
