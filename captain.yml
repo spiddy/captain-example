@@ -1,6 +1,6 @@
 captain-example:
   build: Dockerfile
-  image: harbur/captain-example
+  image: spiddy/captain-example
   test:
-    - docker run harbur/captain-example|grep "hello there"
-    - docker run harbur/captain-example|grep "another feature"
+    - docker run spiddy/captain-example|grep "hello there"
+    - docker run spiddy/captain-example|grep "another feature"
